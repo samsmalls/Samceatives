@@ -32,6 +32,12 @@
     font-size: 1rem;
   }
 
+  .About .About-vid video{
+  border-radius:12px;
+  width: 300px;
+  height: 200px;
+}
+
 
   .contacts {
     padding: 1.5rem;
@@ -71,6 +77,10 @@
     max-width: 100%; 
   }
 
+    border-radius:12px;
+  width: 300px;
+  height: 200px;
+}
 
   .contacts {
     padding: 1.5rem;
@@ -111,7 +121,11 @@
     font-size: 2rem;
   }
 
-
+    border-radius:12px;
+  width: 300px;
+  height: 200px;
+}
+  
   .home .home-images img,
   .main-port img,
   .port-link img,
@@ -236,4 +250,5 @@
   font-size: 1rem;
   }
 }
+
 
