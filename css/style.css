@@ -176,7 +176,7 @@ main{
 }
 
 .home h1{
-  font-size:2.4rem;
+  font-size:1.8rem;
   margin-bottom:1rem;
   color: black;
   width: fit-content;
@@ -242,7 +242,7 @@ main{
 
 .home-link a{
   text-decoration: none;
-  
+  font-size:0.9rem;
   background: aquamarine;
   color: #000;
   padding: 0.8rem 1.2rem;
@@ -279,7 +279,7 @@ main{
 }
 
 .About h1{
-  font-size:2.4rem;
+  font-size:1.8rem;
   margin-bottom:1rem;
   color: black;
   width: fit-content;
@@ -316,7 +316,7 @@ main{
 }
 
 .projects h1{
-  font-size:2.4rem;
+  font-size:1.8rem;
   margin-bottom:1rem;
   color: black;
   width: fit-content;
@@ -370,6 +370,7 @@ main{
   font-weight: bold;
   max-width: fit-content;
   margin-bottom: 1.5rem;
+  font-size:0.8rem;
 }
 
 .port-link-two{
@@ -427,7 +428,7 @@ main{
 }
 
 .contacts h1{ 
-  font-size:2.4rem;
+  font-size:1.8rem;
   margin-bottom:1rem; 
   color: rgb(41, 173, 129); 
   width: fit-content; 
@@ -481,4 +482,5 @@ main{
 .contact-note{ margin-top:0.6rem; color:black; font-size:0.9rem }
 
 .contact-config-note{ margin-top:0.6rem; color:black; font-size:0.95rem; text-align:center; }
+
 
