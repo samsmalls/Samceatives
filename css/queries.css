@@ -17,8 +17,41 @@
   .About h1,
   .projects h1,
   .contacts h1 {
-    font-size: 1.5rem;
+    font-size: 0.8rem;
   }
+
+   .home ,
+  .About ,
+  .projects {
+    font-size: 0.8rem;
+  }
+
+
+  .home .home-images img,
+  .main-port img,
+  .port-link img,
+  .port-link-two img,
+  .your-brand img {
+    max-width: 100%; 
+  }
+
+  .home-images img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .About .About-vid video{
+  border-radius:12px;
+  width: 200px;
+  height: 200px;
+}
+
+.main-port img{
+  height: 300px;
+  width: 250px;
+  margin-bottom: 1.5rem;
+}
+
 
   .home .home-images img,
   .main-port img,
@@ -29,7 +62,7 @@
   }
 
   .home-link a{
-    font-size: 0.9rem;
+    font-size: 0.5rem;
   }
 
 
@@ -85,8 +118,8 @@
 
   .About .About-vid video{
   border-radius:12px;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 
 .main-port img{
@@ -132,7 +165,7 @@
   .About h1,
   .projects h1,
   .contacts h1 {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
   .home ,
@@ -157,7 +190,7 @@
 
   .About .About-vid video{
   border-radius:12px;
-  width: 250px;
+  width: 200px;
   height: 200px;
 }
 
@@ -181,7 +214,7 @@
   }
 
   .home-link a{
-    font-size: 1.6rem;
+    font-size: 0.8rem;
   }
 
   .contact-form {
@@ -443,4 +476,5 @@
   font-size: 1rem;
   }
 }
+
 
