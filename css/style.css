@@ -145,7 +145,7 @@ nav.side a:hover{
 
 /* main */
 main{
-  padding:1rem;
+  padding:0rem;
   margin-top:1.2rem;
   font-size: 0.8rem;
   display: flex;
@@ -160,11 +160,11 @@ main{
   background: white;
   padding:2rem;
   border-radius:12px;
-  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+  /* box-shadow:0 4px 12px rgba(0,0,0,0.15); */
   max-width:100%;
   width:100%;
   color:black;
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -183,24 +183,24 @@ main{
   font-weight: bold;
 }
 
-.home .home-images{
+.home-images{
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.8rem;
-  padding:0.9rem 0.3rem;
-  max-width: fit-content;
-  width: 100%;
-  margin-top:1.5rem;
+  gap: 2rem;
   border-radius:12px;
-  box-shadow:0 4px 12px rgba(0,0,0,0.15);
-  align-items: stretch;
+  max-width: fit-content;
+  padding: 0.9rem  0.4rem;
+  margin-top: 1.5rem;
 }
 
-.home .home-images img{
-  object-fit: cover;
+.home-images img{
+  gap: 2rem;
+  padding: 0.9rem  0.4rem;
   border-radius:12px;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
+  max-width: 100%;
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
 }
 
 
@@ -244,11 +244,11 @@ main{
   background: white;
   padding:2rem;
   border-radius:12px;
-  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+ /*  box-shadow:0 4px 12px rgba(0,0,0,0.15); */
   max-width:100%;
   width:100%;
   color:black;
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -268,25 +268,25 @@ main{
   border-radius:12px;
   box-shadow:0 4px 12px rgba(0,0,0,0.15);
   max-width: fit-content;
-  padding-left: 0.3rem;
-  padding-right: 0.3rem;
+ /*  padding-left: 0.3rem;
+  padding-right: 0.3rem; */
 }
 
 .About .About-vid video{
   border-radius:12px;
-  width: 200px;
-  height: 150px;
+  width: 400px;
+  height: 350px;
 }
 
 .projects{
   background: white;
   padding:2rem;
   border-radius:12px;
-  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+  /* box-shadow:0 4px 12px rgba(0,0,0,0.15); */
   max-width:100%;
   width:100%;
   color:black;
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -311,8 +311,9 @@ main{
 }
 
 .main-port img{
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 2rem;
 }
 
 /* Responsive: stack to one column on narrow screens */
@@ -359,12 +360,13 @@ main{
   max-width: fit-content;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
+  border-radius: 12px;
 }
 
 .port-link-two img{
   border-radius:12px;
-  max-width: 100%;
-  width: 100%;
+  max-width: 450px;
+  width: 400px;
 }
 
 .port-link-two a{
@@ -389,7 +391,7 @@ main{
 
 .contacts{
   background: white;
-  /* padding:3rem; */
+  padding:3rem;
   border-radius:12px;
   box-shadow:0 4px 12px rgba(100, 28, 28, 0.15);
   max-width:100%;
@@ -415,10 +417,20 @@ main{
   gap:0.8rem;
   max-width:100%;
   width:100%;
+  border: solid black 2px;
   /* background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(0,0,0,0.03)); */
   padding:2rem;
   border-radius:12px;
  
+}
+
+.contacts p{
+  font-size: 1rem;
+}
+
+.input-border{
+  border: solid black 2px;
+  border-radius: 10px;
 }
 .contact-form label{ font-size:0.95rem; color:black; font-weight:600; }
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea{
@@ -444,7 +456,7 @@ main{
   font-weight:700;
 }
 .form-actions button:disabled{ opacity:0.6; cursor:not-allowed; }
-.contact-status{ color: black; font-weight:600; }
+.contact-status{ color: black; font-weight:300; font-size: 0.9rem; }
 .contact-note{ margin-top:0.6rem; color:black; font-size:0.9rem }
 
 .contact-config-note{ margin-top:0.6rem; color:black; font-size:0.95rem; text-align:center; }

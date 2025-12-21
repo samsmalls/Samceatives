@@ -14,7 +14,7 @@ body{
 }
 
 main{
-    margin: 2rem 2rem;
+    margin: 0;
 }
 
 .welcome{
@@ -89,7 +89,7 @@ h1{
 }
 
 .pro-link a{
-    color: blue;
+    color: rgb(25, 90, 30);
     text-decoration: none;
     display: flex;
     align-items: center;
